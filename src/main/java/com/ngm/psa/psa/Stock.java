@@ -13,4 +13,20 @@ public class Stock {
         this.fullname = fullName;
         this.price = price;
     }
+
+    public String getTicker() {
+        return this.ticker;
+    }
+
+    public String getFullName() {
+        return this.fullname;
+    }
+
+    public double getPrive() {
+        return this.price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
 }
